@@ -7,11 +7,11 @@ class ArrMath{
         if(empty($arr)){return null}
         
         $max = $arr[0];
-        foreach($arr as $wartoscAktualna){
+        foreach($arr as $currentValue){
 
-            if($wartoscAktualna > $max){
+            if($currentValue > $max){
 
-                $max = $wartoscAktualna;
+                $max = $currentValue;
 
             }
 
